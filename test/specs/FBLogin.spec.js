@@ -16,7 +16,7 @@ describe('Login Test case',()=>{
        
 
         // Get and print the error text
-        const errorText = await errorBox.getText(); 
+        const errorText = await errorBox.getText();
         console.log('Login error message:', errorText);
     })
 })
